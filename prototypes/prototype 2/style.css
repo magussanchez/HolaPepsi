@@ -1,0 +1,35 @@
+body,
+html,
+* {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-bottom: 50px;
+}
+
+.box {
+  background-color: yellow;
+  width: 40px;
+  height: 40px;
+  float: left;
+  background-image: url("img/image1.jpg");
+  background-size: 100%;
+}
+
+img {
+  width: 50%;
+}
+
+button {
+  display: block;
+  width: auto;
+  font-size: 2em;
+}
+
+#btn1 {
+  display: block;
+  background-color: green;
+}

@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: white;
+}
+
+.container > div {
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  width: 25%;
+  height: 25vw;
+  border: 4px solid white;
+}
+
+.collage {
+  background-color: red;
+}
+
+.diagram {
+  background-color: yellow;
+}
+
+.unrelated {
+  background-color: blue;
+}
+
+.social {
+  background-color: blue;
+}
+
+img {
+  width: 100%;
+  height: 25vw;
+}
+
+h1 {
+  width: 50%;
+  text-align: center;
+  margin: 35px auto;
+  padding: 14px;
+  color: black;
+  font-family: helvetica;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+select {
+  font-size: 35px;
+  margin: 14px;
+}
